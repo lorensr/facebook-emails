@@ -1,6 +1,6 @@
 {
   "name": "facebook-emails",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Loren Sands-Ramshaw <lorensr@gmail.com>",
   "description": "Retrieves list of your Facebook friends' emails in the form <username>@facebook.com.",
   "keywords": [

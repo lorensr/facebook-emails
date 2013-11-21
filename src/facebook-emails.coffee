@@ -48,6 +48,8 @@ In Google Contacts, select More -> Import and choose contacts.csv
   
 '''
 
+typeIsArray = Array.isArray || ( value ) -> return {}.toString.call( value ) is '[object Array]'
+
 [_,_,user,token] = process.argv
 unless user and token
   d usage
@@ -58,6 +60,9 @@ URL = "https://graph.facebook.com/#{user}/friends?fields=username&access_token=#
 request URL, (e,r,b) ->
   d e if e
   friends = JSON.parse b
-  d friends
+  unless typeIsArray friends.data
+    console.error 'No data was returned. The access token might be incorrect:'
+    console.error b
+    process.exit 1
   for f in friends.data
     d f.username + '@facebook.com' if f.username
