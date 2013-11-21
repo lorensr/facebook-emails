@@ -1,0 +1,25 @@
+{
+  "name": "facebook-emails",
+  "version": "1.0.0",
+  "author": "Loren Sands-Ramshaw <lorensr@gmail.com>",
+  "description": "Retrieves list of your Facebook friends' emails in the form <username>@facebook.com.",
+  "keywords": [
+    "facebook",
+    "message",
+    "email"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "request": "~2.27.0",
+    "coffee-script": "~1.6.2"
+  },
+  "bin": "./src/facebook-emails.coffee",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lorensr/facebook-emails.git"
+  },
+  "homepage": "http://lorensr.me/individually-message-your-facebook-friends.html",
+  "bugs": {
+    "url": "http://github.com/lorensr/facebook-emails/issues"
+  }
+}
