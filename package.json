@@ -1,6 +1,6 @@
 {
   "name": "facebook-emails",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Loren Sands-Ramshaw <lorensr@gmail.com>",
   "description": "Retrieves list of your Facebook friends' emails in the form <username>@facebook.com.",
   "keywords": [
@@ -18,7 +18,7 @@
     "type": "git",
     "url": "git://github.com/lorensr/facebook-emails.git"
   },
-  "homepage": "http://lorensr.me/individually-message-your-facebook-friends.html",
+  "homepage": "http://lorensr.me/individually-message-facebook-friends-in-bulk.html",
   "bugs": {
     "url": "http://github.com/lorensr/facebook-emails/issues"
   }
