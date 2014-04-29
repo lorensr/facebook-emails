@@ -1,8 +1,13 @@
 Outputs a list of all your Facebook friend's email addresses in the form [username]@facebook.com, one per line. You can then copy and paste the list into the Bcc field of an email, and each of your friends will receive an individual Facebook message with the contents of the email.
 
-`npm install -g facebook-emails`
+Commands to enter in Terminal on a Mac, after [installing node](http://nodejs.org/):
 
-`usage: facebook-emails [user id] [access token]`
+```
+npm install -g facebook-emails
+facebook-emails myId longRandomThing
+```
+
+In the second command, replace `myId` with your Facebook user ID, and `longRandomThing` with the access token (see below).
 
 
 ## Access Token
@@ -11,7 +16,7 @@ Get an access token by visiting
   
 [https://developers.facebook.com/tools/explorer](https://developers.facebook.com/tools/explorer)
 
-and clicking the "Get Access Token" button. No permissions need to be selected.
+(you might need to sign up to be a developer first) and clicking the "Get Access Token" button. No permissions need to be selected.
 
 ## User ID
 
