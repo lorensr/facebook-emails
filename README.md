@@ -1,3 +1,5 @@
+UPDATE:  As of April 2014, due to a change in the Facebook Graph API, this no longer works. It will only output your friends who have used the Graph API Explorer! For more information, see the second item under "Permissions" here: https://developers.facebook.com/docs/graph-api/reference/v2.0/user/friends
+
 Outputs a list of all your Facebook friend's email addresses in the form [username]@facebook.com, one per line. You can then copy and paste the list into the Bcc field of an email, and each of your friends will receive an individual Facebook message with the contents of the email.
 
 Commands to enter in Terminal on a Mac, after [installing node](http://nodejs.org/):
